@@ -1,0 +1,390 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: white;
+   /* width: 85vw; */
+   /* margin: 0 7%; */
+   /* border: 10px solid red;    */
+}
+
+#navbar{
+   background-color: black;
+   color: rgba(255, 255, 255, 0.8);
+   width: 100%;
+   z-index: 0;
+}
+
+#navbar .icons{
+   background-color: rgba(0, 0, 0, 0.799);
+   color: rgba(255, 255, 255, 0.8);
+   display: flex;
+   justify-content: space-between;
+   height: 40px;
+   width: 100%;
+   margin: auto;
+   padding: 10px 12%;
+   font-size: 15px;
+   align-items: center;
+   position: fixed;
+}
+
+#navbar .note{
+   height: 30px;
+   text-align: center;
+   margin-top: 3%;
+   font-size: 18px;
+}
+
+#navbar .icons p:hover{
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+
+
+#navbar .icons i:hover{
+   color: white;
+   cursor: pointer;
+}
+
+#navbar .note p:hover{
+   color: white;
+   cursor: pointer;
+}
+
+#hero{
+   /* border: 2px solid blue; */
+   height: 270vh;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   margin-top: -2.5%;
+}
+
+#hero .first{
+   background-color: black;
+   height: 85vh;
+   width: 100%;
+   color: white;
+   cursor: pointer;
+}
+
+.first h1{
+   margin-top: 2rem;
+   padding: 8px;
+   font-size: 4rem;
+}
+
+.first h3{
+   font-size: 25px;
+}
+
+.first img{
+   margin: 10px auto;
+   height: 300px;
+   width: 800px;
+}
+
+.blue-btn{
+   height: 40px;
+   width: 150px;
+   border-radius: 25px;
+   margin: 15px;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(23, 23, 215);
+   outline: none;
+   cursor: pointer;
+}
+
+.outline-btn{
+   height: 40px;
+   width: 80px;
+   border-radius: 25px;
+   margin: 15px;
+   font-size: 15px;
+   font-weight: bold;
+   color: rgb(23, 23, 215);
+   background-color: rgba(0, 0, 0, 0.167);
+   border: 2px solid rgb(23, 23, 215);
+   cursor: pointer;
+}
+
+.outline-btn:hover{
+   color: white;
+   background-color: rgb(23, 23, 215);
+}
+
+.first p{
+   font-size: 22px;
+   color: rgb(255, 255, 255, 0.8);
+}
+
+#hero .second{
+   border: 2px solid ;
+   margin: 15px 0;
+   height: 85vh;
+   width: 100%;
+   background: linear-gradient(to bottom, #101650 0%, #fcfcfc 100%);
+   color: white;
+   cursor: pointer;
+}
+
+.second h1{
+   margin-top: 2rem;
+   padding: 8px;
+   font-size: 4rem;
+}
+   
+.second h3{
+   font-size: 25px;
+}
+
+.second img{
+   margin: 10px auto;
+   height: 300px;
+   width: 800px;
+   opacity: 100;
+}
+
+.second p{
+   font-size: 22px;
+   color: black;
+}
+
+#hero .third{
+   /* border: 2px solid; */
+   margin: 15px 0;
+   height: 87vh;
+   width: 100%;
+   background-color: #f5f5f7;
+   color: black;
+   cursor: pointer;
+}
+
+.third h1{
+   margin-top: 2rem;
+   padding: 8px;
+   font-size: 3rem;
+}
+
+.third p{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.third h3{
+   margin: 10px;
+   font-size: 25px;
+}
+
+.third .outline-btn:hover{
+   color: white;
+   background-color: rgb(23, 23, 215);
+} */
+
+.third img{
+   margin: 10px auto;
+   height: 350px;
+   width: 1000px;
+   opacity: 100;
+}
+
+#items{
+   /* border: 2px solid blue; */
+   height: max-content;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /* margin: 2% 0;    */
+}
+
+#items #item{
+   border: 2px solid brown;
+   box-shadow: 10px 10px 10px brown;
+   border-radius: 15px;
+   height: 80vh;
+   width: 45vw;
+   margin: 15px 0;
+   cursor: pointer;
+}
+
+#items .watch{
+   background-image: url(./watch.jpg);
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
+
+.watch h3{
+   margin: 3rem 0 1rem;
+   font-size: 40px;
+}
+
+.watch span{
+   color: orangered;
+   font-size: 18px;
+   margin: 0 0 3rem;
+}
+
+.watch p{
+   margin: 6rem;
+   font-size: 30px;
+}
+
+#items .ap{
+   background-image: url(./airpodes.jpg);
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 10rem 15px 0;
+}
+
+.ap h3{
+   margin: 6rem 0 1rem;
+   font-size: 60px;
+}
+
+.ap p{
+   font-size: 25px;
+   margin: 1rem;
+}
+
+#items .ap-max{
+   background-image: url(./Airpodes\ Max.webp);
+   color: black;
+   text-align: center;
+   padding: 1rem 15px;
+}
+
+.ap-max h3{
+   font-size: 60px;
+}
+
+.ap-max p{
+   font-size: 25px;
+   margin: 1rem;
+}
+
+.ap-max .btns{
+   margin: 20rem 0;
+}
+
+#items .mac{
+   background-image: url(./mackbook.webp);
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 1rem 15px;
+}
+
+.mac h3{
+   font-size: 60px;
+}
+
+.mac p{
+   font-size: 25px;
+   margin: 1rem;
+}
+
+.mac .btns{
+   margin: 20rem 0;
+}
+
+#items .ipad{
+   background-image: url(./iPad.webp);
+   background-size: cover;
+   color: black;
+   text-align: center;
+   padding: 1rem 15px;
+}
+
+.ipad h3{
+   margin: 10rem 0 2rem;
+   font-size: 60px;
+}
+
+.ipad p{
+   font-size: 25px;
+}
+
+.ipad .btns{
+   margin: 10rem 0;
+}
+
+#items .iphone{
+   background-image: url(./iPhone.webp);
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 1rem 15px;
+}
+
+.iphone h3{
+   margin: 20rem 0 2rem;
+   font-size: 60px;
+}
+
+.iphone p{
+   font-size: 25px;
+}
+
+.iphone .btns{
+   margin: 1rem;
+}
+
+#carousel{
+   border: 2px solid blue;
+   height: 95vh;
+   width: 98vw;
+   margin: 2rem auto;
+   display: flex;
+   flex-direction: row;
+   overflow-x: scroll;
+   cursor: pointer;
+}
+
+#carousel .tv img{
+   height: 90%;
+   width: 100%;
+}
+
+#footer{
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   padding: 2rem 10rem;
+   background-color: #f5f5f7;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+#footer .links{
+   display: flex;
+   flex-direction: row;
+   margin: 1rem;
+   list-style: none;
+}
+
+.links ul{
+   margin: 20px 4rem;
+   list-style: none;
+}
+
+.links li:hover{
+   cursor: pointer;
+   text-decoration: underline ;
+}
+
+#footer .sign{
+   color: #101650;
+   font-size: 18px;
+   text-align: center;
+   text-decoration: underline red;
+}
